@@ -1,0 +1,22 @@
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+    position: relative;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    margin-right: 93px;
+    
+    color: var(--title-text-color);
+    font-family: var(--secondary-font), sans-serif;
+}
+

@@ -1,0 +1,38 @@
+.auth-nav {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+            gap: 50px;
+    }
+}
+
+.auth-nav__item--mail {
+    margin-right: 50px;
+}
+
+.auth-nav__link,
+.auth-nav__phone {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+    transition: color var(--trans);
+}
+
+.auth-nav__link:hover,
+.auth-nav__link:focus,
+.auth-nav__phone:hover,
+.auth-nav__phone:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav__icons {
+    fill: currentColor;
+    margin-right: 10px;
+}
